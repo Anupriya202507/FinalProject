@@ -1,0 +1,43 @@
+{
+  "rows_clean": 80000,
+  "rows_raw": 81280,
+  "rows_after_cleaning": 78792,
+  "days": 180,
+  "seed": 42,
+  "date_min": "2026-01-01 01:44:00",
+  "date_max": "2026-06-29 23:54:00",
+  "cleaning_report": {
+    "rows_in": 81280,
+    "sentinel_negatives_nulled": 1539,
+    "coerced_types": [
+      "order_amount",
+      "weekend_flag",
+      "peak_hour_flag",
+      "festival_day_flag",
+      "current_incentive",
+      "traffic_index",
+      "rider_rating"
+    ],
+    "categorical_values_corrected": 7603,
+    "weight_rows_converted_from_grams": 2387,
+    "empty_or_constant_columns_dropped": [
+      "promo_code_applied",
+      "data_source"
+    ],
+    "city_variants_collapsed": 50,
+    "exact_duplicates_dropped": 545,
+    "conflicting_duplicate_ids_dropped": 733,
+    "impossible_distance_rows_dropped": 79,
+    "inflated_distance_rows_rescaled": 178,
+    "unparseable_timestamps": 0,
+    "future_timestamp_rows_dropped": 396,
+    "rainfall_imputed": 3870,
+    "traffic_imputed": 2307,
+    "rider_rating_imputed": 3672,
+    "order_weight_kg_imputed": 1609,
+    "rider_experience_months_imputed": 3819,
+    "rows_out": 78792,
+    "rows_lost": 2488,
+    "rows_lost_pct": 3.061
+  }
+}

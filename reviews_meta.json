@@ -1,0 +1,28 @@
+{
+  "rows_clean": 8000,
+  "rows_raw": 8240,
+  "sentiment_distribution": {
+    "negative": 4150,
+    "positive": 2709,
+    "neutral": 1141
+  },
+  "topic_distribution": {
+    "delivery": 1530,
+    "product": 1499,
+    "packaging": 815,
+    "order": 711,
+    "pricing": 619,
+    "refund": 559,
+    "app": 558,
+    "customer_support": 475,
+    "inventory": 387,
+    "offers": 325,
+    "payment": 263,
+    "others": 108,
+    "membership": 86,
+    "website": 65
+  },
+  "imbalance_ratio": 23.53846153846154,
+  "tanglish_pct": 10.6875,
+  "seed": 42
+}
